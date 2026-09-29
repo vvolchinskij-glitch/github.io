@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marzipan 1C</title>
+<style>
+  :root { --bg:#fbf8f4; --fg:#2b2622; --muted:#6d655e; --accent:#a0522d; --line:#e7dfd6; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#1d1a17; --fg:#eee7df; --muted:#a79d93; --accent:#e0a47a; --line:#3a332d; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px; }
+  h1 { font-size:28px; margin:0 0 8px; }
+  .lead { color:var(--muted); margin:0 0 32px; }
+  section { border-top:1px solid var(--line); padding:20px 0; }
+  h2 { font-size:18px; margin:0 0 8px; }
+  a { color:var(--accent); }
+  footer { color:var(--muted); font-size:14px; border-top:1px solid var(--line); padding-top:16px; margin-top:16px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Marzipan 1C</h1>
+  <p class="lead">Внутрішній інструмент пекарні Marzipan для обліку замовлень.<br>
+  Internal order-management tool of the Marzipan bakery.</p>
+
+  <section>
+    <h2>Що робить / What it does</h2>
+    <p>Облікова система компанії (BAS / 1С) раз на день читає внутрішні Google-таблиці
+    з плануванням виробництва і постачання та створює на їх основі замовлення в обліку.
+    Доступ до таблиць — лише на читання.</p>
+    <p>Once a day the company's accounting system (BAS / 1C) reads the company's internal
+    Google Sheets with production and delivery plans and creates orders from them.
+    Access to spreadsheets is read-only.</p>
+  </section>
+
+  <section>
+    <h2>Хто користується / Who uses it</h2>
+    <p>Лише працівники Marzipan. Застосунок не призначений для зовнішніх користувачів.</p>
+    <p>Marzipan staff only. The application is not intended for external users.</p>
+  </section>
+
+  <footer>
+    <a href="privacy.html">Політика конфіденційності / Privacy Policy</a>
+  </footer>
+</main>
+</body>
+</html>
